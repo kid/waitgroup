@@ -1,0 +1,13 @@
+[package]
+name = "waitgroup"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Arnaud Rebts <arnaud.rebts@gmail.com>"]
+
+[dependencies]
+futures = "0.3.21"
+
+[dev-dependencies]
+tokio = { version ="1.17.0", features = ["macros", "rt"] }
+tokio-test = "0.4.2"
